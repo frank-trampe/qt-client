@@ -22,8 +22,8 @@ exists(openrpt) {
     OPENRPT_DIR = openrpt
 }
 
-! exists(openrpt) {
-    exists(../openrpt) {
+! exists(openrpt/global.pri) {
+    exists(../openrpt/global.pri) {
         OPENRPT_DIR = ../openrpt
     }
 }
@@ -41,8 +41,8 @@ exists(csvimp) {
     CSVIMP_DIR = csvimp
 }
 
-! exists(csvimp) {
-    exists(../csvimp) {
+! exists(csvimp/global.pri) {
+    exists(../csvimp/global.pri) {
         CSVIMP_DIR = ../csvimp
     }
 }
